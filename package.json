@@ -4,10 +4,20 @@
   "description": "",
   "private": true,
   "scripts": {
+    "start": "webpack"
   },
-  "keywords": ["webpack","webpack tutorial","webpack 5"],
+  "keywords": [
+    "webpack",
+    "webpack tutorial",
+    "webpack 5"
+  ],
   "author": "Ashkan Ashtiani",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
 }
